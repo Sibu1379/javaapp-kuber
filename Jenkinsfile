@@ -6,7 +6,7 @@ pipeline {
     }
     agent any
     tools {
-        maven "MVN3"
+        maven "MVN 3.9.9"
         dockerTool "docker"
     }
     
